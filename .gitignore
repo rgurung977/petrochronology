@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb_checkpoints
+
+# Data files (adjust based on file sizes)
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.dat
+*.txt
+*.nc
+*.grib
+*.zarr
+
+# Large binary files
+*.zip
+*.tar.gz
+*.7z
+*.pkl
+*.pickle
+
+# Thesis build files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+
+# Geoscience specific
+*.las
+*.laz
+*.dem
+*.tif
+*.tiff
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Secrets and local config
+.env
+config.local.py
